@@ -1,0 +1,35 @@
+*.class
+
+# Eclipse files
+.classpath
+.factorypath
+.project
+.settings/
+
+.DS_Store
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+*.error
+*.stat
+*.info
+*.debug
+
+# Child modules
+bin/
+target/
+logs/
+*/.gitignore
+*/.DS_Store
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/bin/
