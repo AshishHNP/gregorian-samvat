@@ -188,10 +188,12 @@ public class HinduLunar extends Date {
     }
 
     public String formattedTithi() {
-        String paksh = "\u0AB8\u0AC1\u0AA6";
+        // String paksh = "\u0AB8\u0AC1\u0AA6";
+        String paksh = "Sud";
         Integer tithi = new Integer(day);
         if (tithi.intValue() > 15) {
-            paksh = "\u0AB5\u0AA6";
+            // paksh = "\u0AB5\u0AA6";
+            paksh = "Vad";
             if (tithi.intValue() != 30) tithi = Integer.valueOf(tithi.intValue() % 15);
         }
         return MessageFormat.format("{0}, {1}{2} {3} {4}{5} {6,number,#} V.S.",

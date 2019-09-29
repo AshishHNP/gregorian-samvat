@@ -50,13 +50,13 @@ public class EnglishUI {
         dayMonths.setFont(new Font("Arial Unicode MS", 0, 60));
         year = new JTextField("Enter Year");
         year.setFont(new Font("Arial Unicode MS", 0, 60));
-        actionButton = new JButton("Convert to \u0AB8\u0A82\u0AB5\u0AA4");
+        actionButton = new JButton("Convert to Samvat");
         actionButton.setFont(new Font("Arial Unicode MS", 0, 20));
         next = new JButton("Next");
         next.setFont(new Font("Arial Unicode MS", 0, 20));
         previous = new JButton("Previous");
         previous.setFont(new Font("Arial Unicode MS", 0, 20));
-        convertedTithi = new JButton("                Converted \u0AB8\u0A82\u0AB5\u0AA4 Tithi                ");
+        convertedTithi = new JButton("   Converted Tithi       ");
         convertedTithi.setFont(new Font("Arial Unicode MS", 1, 80));
     }
 
@@ -130,7 +130,7 @@ public class EnglishUI {
     }
 
     public void createAndShowGUI() {
-        JFrame frame = new JFrame("Gregorian to \u0AB8\u0A82\u0AB5\u0AA4 Converter");
+        JFrame frame = new JFrame("Gregorian Converter");
         frame.setDefaultCloseOperation(3);
         addComponentsToPane(frame.getContentPane());
         frame.pack();
